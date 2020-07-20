@@ -11,7 +11,7 @@ from telegram import InlineKeyboardMarkup
 from telegram.ext import Updater
 from telegram.ext import CommandHandler, MessageHandler, Filters, CallbackQueryHandler
  
-TOKEN = '933557239:AAEzIKCT4VYB0kJt92Ep3ZPuM1sDYsHrG6U'
+TOKEN = '1351570103:AAFbLYyRn16wzcBbb-VnGbQuCZ2iXrpqFg0'
 logging.basicConfig(
     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
     level=logging.INFO
@@ -85,7 +85,7 @@ def catalog(update, context, id, src, ctext):
 def contacts(update, context):
     context.bot.send_message(
         chat_id=update.message.chat_id,
-        text='Почта: elShop@devs.com\nТелефон: 380508409843'
+        text='Почта: aueth@mail.ru\nТелефон: +79183268437'
     )
 # menu
  
